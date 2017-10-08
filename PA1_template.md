@@ -156,7 +156,7 @@ hist(sub_data, col = "green", main = "steps data 1", xlab="sum of steps by day")
 hist(sub_comp_data, col = "blue", main = "steps data 2", xlab="sum of steps by day")
 ```
 
-![plot of chunk unnamed-chunk-23](figure/unnamed-chunk-23-1.png)
+![plot of chunk unnamed-chunk-23](https://github.com/maddog01/Reproducible-Research-Course/blob/master/unnamed-chunk-23-1.png)
 
 So there does appear to be some difference between the graph confirming that the missing values do impact certain parts of the data but overall, the difference is small.
 
