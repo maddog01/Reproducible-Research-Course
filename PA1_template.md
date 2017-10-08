@@ -187,7 +187,7 @@ plot(int_avg_wd ~ unique(sub_wd$interval), type = "l", xlab = "interval", ylab =
 plot(int_avg_we ~ unique(sub_we$interval), type = "l", xlab = "interval", ylab = "avg weekend steps")
 ```
 
-![plot of chunk unnamed-chunk-24](figure/unnamed-chunk-24-1.png)
+![plot of chunk unnamed-chunk-24](https://github.com/maddog01/Reproducible-Research-Course/blob/master/unnamed-chunk-24-1.png)
 
 From the graphs, we see that the individual was more active during the weekend days than they were during the weekday days.
 
