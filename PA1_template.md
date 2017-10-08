@@ -109,7 +109,7 @@ sub_comp_data <- tapply(comp_data$steps, comp_data$date, sum, na.rm = TRUE)
 hist(sub_comp_data, col = "blue", main = "graph of steps per day", xlab="sum of steps by day")
 ```
 
-![plot of chunk unnamed-chunk-20](figure/unnamed-chunk-20-1.png)
+![plot of chunk unnamed-chunk-20](https://github.com/maddog01/Reproducible-Research-Course/blob/master/unnamed-chunk-20-1.png)
 
 We will now calculate the new mean and median of this new data set:
 
