@@ -28,7 +28,7 @@ sub_data <- tapply(data$steps, data$date, sum, na.rm = TRUE)
 hist(sub_data, col = "green", main = "graph of steps per day", xlab="sum of steps by day")
 ```
 
-![plot of chunk unnamed-chunk-14](figure/unnamed-chunk-14-1.png)
+![plot of chunk unnamed-chunk-14](https://github.com/maddog01/Reproducible-Research-Course/blob/master/unnamed-chunk-14-1.png)
 ## Finding the mean and median of the data
 
 The following r code is how we calculate the mean and median of the total number of steps taken per day:
