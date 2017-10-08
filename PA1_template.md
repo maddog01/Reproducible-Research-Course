@@ -57,7 +57,7 @@ int_avg <- tapply(sub_data1$steps, sub_data1$interval, mean, na.rm=T)
 plot(int_avg ~ unique(sub_data1$interval), type = "l", xlab = "interval", ylab = "avg number of steps")
 ```
 
-![plot of chunk unnamed-chunk-16](figure/unnamed-chunk-16-1.png)
+![plot of chunk unnamed-chunk-16](https://github.com/maddog01/Reproducible-Research-Course/blob/master/unnamed-chunk-16-1.png)
 We now find the interval with the most steps
 
 
